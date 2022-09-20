@@ -1,0 +1,17 @@
+<h2 class="text-success"><strong><br /><br /> Buscador de Perros </strong>
+</h2>
+<h3><br /> Seleccione una raza y oprima "Buscar"</h3><br />
+
+<div class="container-fluid text-center mt-4">
+  <form>
+    <label for="razasSelect">Seleccione una raza</label>
+    <select class="form-control" name="razas" id="razasSelect">
+      {{#each opciones}}
+        <option value="{{this}}">
+          {{this}}
+        </option>
+      {{/each}}
+    </select><br /><br />
+    <button class="btn btn-success btn-lg" type="submit">Buscar</button>
+  </form>
+</div>

@@ -1,0 +1,17 @@
+{
+  "name": "holamundonode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "holaMundo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon holaMundoExpress.js --ext js, hbs, mjs, json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0"
+  }
+}
